@@ -1,0 +1,97 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url('cool-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 6rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin: 3rem 0 -2rem;
+}
+
+#buttons {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px rgb(97, 97, 97);
+    border-radius: 10px;
+    display: block;
+ }
+
+ .button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .text-clip {
+    background: linear-gradient(23deg, rgb(252, 193, 33) 0%, rgb(22 255 147) 50%, rgb(211 35 255 / 89%) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ .text-items {
+     font-size: 3rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+ }
+
+ .text-item {
+     margin: 0.2rem 0;
+ }
+
+ .two-col {
+     display: flex;
+     flex-flow: row;
+ }
+
+ .two-col > div {
+     width: 400px;
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+ }
+
+ .next {
+     position: absolute;
+     bottom: 2rem;
+     text-decoration: none;
+     color: white;
+     font-size: 1.2rem;
+ }
