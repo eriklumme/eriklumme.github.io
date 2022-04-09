@@ -22,10 +22,10 @@ body {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 2rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    margin: 3rem 0 -2rem;
+    margin: 1rem 0.3rem -3rem;
 }
 
 #buttons {
@@ -34,6 +34,7 @@ h1 {
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .button {
@@ -66,10 +67,11 @@ h1 {
  }
 
  .text-items {
-     font-size: 3rem;
+     font-size: 1.7rem;
     display: flex;
     flex-flow: column;
     align-items: center;
+    width: 100%;
  }
 
  .text-item {
@@ -82,7 +84,7 @@ h1 {
  }
 
  .two-col > div {
-     width: 400px;
+     width: 50%;
      display: flex;
      flex-flow: column;
      align-items: center;
